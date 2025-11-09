@@ -1,5 +1,3 @@
-import requests # type: ignore
-# ... (rest of your script) ...
 import requests # type: ignore # Used to make HTTP requests to the VirusTotal API.
 import argparse                # Used to build the command-line interface (CLI) (handling the -d flag).
 import json                    # The requests linrary uses this to decode the API's response.
@@ -137,5 +135,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
